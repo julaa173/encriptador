@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./Css/styles.css">
+	<link rel="icon" type="image/png" href="./Img/Vector.png" />
+	<script src="https://kit.fontawesome.com/c1a122f13b.js" crossorigin="anonymous"></script>
+	<title>Encriptador</title>
+</head>
+<body>
+	<header>
+		<div class="img_logo">
+			<img src="./Img/vector.png"  alt="Alura Latam">
+		</div>
+		
+		<div class="titulo">
+			<h1 >Encriptador de Textos</h1>
+		</div>
+	</header>
+
+	<main>
+		<div class="content">
+			<div class="section_encrypt">
+				<div>
+					<textarea class="input_text" cols="40" rows="6" placeholder="Ingrese su texto aquí"></textarea>
+					<p class="warning"><i class="fa-solid fa-triangle-exclamation"></i>Solo letras minúsculas y sin acentos</p>
+				</div>
+
+				<div class="section_btn">
+					<button class="btn_encrypt">Encriptar</button>
+					<button class="btn_decrypt">Desencriptar</button>
+				</div>
+			</div>
+
+			<div class="section_decrypt">
+				<textarea class="output_text" placeholder="El mensaje se mostrara aquí" readonly="readonly"></textarea>
+				<button class="btn_copy">Copiar</button>
+			</div>
+		</div>	
+	</main>
+
+	<footer>
+		<div>
+			<p class="creater">&copy; Olivera Julieta - 2022 - Todos los derechos reservados</p>
+		</div>
+	</footer>
+</body>
+	<script src="./Js/script.js"></script>
+</html>
